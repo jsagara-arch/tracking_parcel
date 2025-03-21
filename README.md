@@ -116,8 +116,8 @@ eb deploy
 
 📌 Access the API:
 
-http://tracking-api-env.eba-xyz123.us-east-1.elasticbeanstalk.com/
-
+http://HOST-NAME.us-east-1.elasticbeanstalk.com/
+Will enable the URL as and when needed)
 🧪 Running Tests
 
 mvn test
