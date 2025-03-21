@@ -2,7 +2,7 @@
 
 📌 Overview
 
-This is a Scalable Tracking Number Generator API built with Spring Boot, using an H2 in-memory database for local development. It generates unique tracking numbers and provides a RESTful API for managing them.
+This is a Scalable Tracking Number Generator API built with Spring Boot, using an H2 in-memory database for local development. It generates unique tracking numbers and provides a RESTful API for managing them added basic validations , Exceptions.
 
 ✅ Features
 
