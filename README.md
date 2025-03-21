@@ -45,9 +45,7 @@ Java 17
 
 Maven
 
-Docker (Optional for Containerization)
-
-AWS CLI (For Deployment)
+AWS EBS (For Deployment)
 
 🔹 2️⃣ Running Locally
 
@@ -85,17 +83,6 @@ POST /api/next-tracking-number
 "createdAt": "2025-03-19T12:45:00Z"
 }
 
-🐳 Docker Deployment
-
-🔹 Build & Run with Docker
-
-# Build the Docker Image
-docker build -t tracking-api .
-
-# Run the Container
-docker run -p 8080:8080 tracking-api
-
-📌 Now, access http://localhost:8080
 
 ☁️ AWS Deployment (Elastic Beanstalk)
 
