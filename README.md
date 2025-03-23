@@ -32,8 +32,6 @@ tracking-api/
 │   ├── service/
 │── src/main/resources
 │   ├── application.yml
-│── Dockerfile
-│── Procfile (For Heroku)
 │── pom.xml
 │── README.md
 
@@ -103,10 +101,16 @@ eb deploy
 
 📌 Access the API:
 
-http://HOST-NAME.us-east-1.elasticbeanstalk.com/
-Will enable the URL as and when needed)
+http://track-parcel-app-env.eba-cmxkxpej.ap-southeast-1.elasticbeanstalk.com/swagger-ui/index.html
+(Currently I have paused application run, Will enable the URL while testing)
 🧪 Running Tests
 
 mvn test
 
 📌 Uses JUnit 5 & Mockito for unit testing.
+
+NOTE:-
+To avoid exposing credentials in application.yml, we can use the following methods:
+
+1️⃣ Environment Variables – Store database credentials securely in OS-level environment variables, preventing direct exposure in the code.
+2️⃣ AWS Secrets Manager – For cloud deployments, store and fetch secrets dynamically using AWS services, reducing hardcoded credentials.
